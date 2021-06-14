@@ -1,0 +1,40 @@
+
+.home-container {
+    background-color: #171F34;
+    width: 100vw;
+    height: 100vh;
+}
+
+.about{
+    position: absolute;
+    top: 20%;
+    right: 10%;
+ 
+}
+
+.about h1 {
+    color: white;
+    font-size: 5rem;
+    line-height: 1rem;
+    font-family: Inconsolata;
+    letter-spacing: 0.1rem;
+    font-weight: 400;
+}
+
+.about span {
+    color: white;
+    font-size: 3rem;
+}
+
+.about p {
+    color: white;
+    font-size: 3rem;
+    font-family: Montserrat;
+}
+
+#my-name {
+    font-size: 4rem;
+    color: #D8ED4E;
+    font-family: 'Dawning of a New Day';
+}
+

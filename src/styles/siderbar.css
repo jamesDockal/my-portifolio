@@ -3,7 +3,7 @@
     width: 7.5vw;
     height: 100vh;
     background-color: #171F34;
-    position: absolute;
+    position: fixed;
     top: 0;
     box-shadow:  0px 0px 15px 0px rgba(0, 0, 0, 0.35);
     display: flex;

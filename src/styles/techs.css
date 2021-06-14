@@ -1,19 +1,27 @@
 
 .techs-container {
-    display: flex;
-    /* background-color: red; */
-    justify-content: space-around;
-    width: 92.5vw;
     margin-left: 7.5vw;
+    width: 92.5vw;
     height: 100vh;
+    position: relative;
+    
 }
 
-.techs-container img{
+.techs {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    /* background-color: red; */
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.techs img{
     width: 250px;
     height: 300px
 }
 
-.techs-container :nth-child(1){
+.techs :nth-child(1){
     position: relative;
     top: 30%;
     transform-origin: center;
@@ -32,7 +40,7 @@
     }
 }
 
-.techs-container :nth-child(2){
+.techs :nth-child(2){
     position: relative;
     top: 10%;
     transform-origin: center;
@@ -44,13 +52,13 @@
         transform: rotate(0deg) translate(0, 0) ;
     }
     25% {
-        transform: rotate(45deg) translate(5px, 5px);
+        transform: rotate(-45deg) translate(5px, 5px);
     }
     30% {
-        transform: rotate(50deg) translate(10px, 10px);
+        transform: rotate(-50deg) translate(10px, 10px);
     }
     37.5% {
-        transform: rotate(30deg) translate(15px, 15px);
+        transform: rotate(-30deg) translate(15px, 15px);
     }
 
     50% {
@@ -58,13 +66,13 @@
     }
     
     75% {
-        transform: rotate(-45deg) translate(15px, 15px);
+        transform: rotate(45deg) translate(15px, 15px);
     }
     80% {
-        transform: rotate(-50deg) translate(10px, 10px);
+        transform: rotate(50deg) translate(10px, 10px);
     }
     87.5% {
-        transform: rotate(-30deg) translate(5px, 5px);
+        transform: rotate(30deg) translate(5px, 5px);
     }
     100%{
         transform: rotate(0deg) translate(0px, 0px);
@@ -72,7 +80,7 @@
 }
 
 
-.techs-container :nth-child(3){
+.techs :nth-child(3){
     position: relative;
     top: 40%;
     transform-origin: center;
@@ -89,4 +97,8 @@
     100%{
         transform: rotate(0deg) translate(0, 0);
     }
+}
+
+.techs :nth-child(4){
+   
 }

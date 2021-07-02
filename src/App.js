@@ -1,22 +1,22 @@
-import Siderbar from './compoenents/Siderbar.js'
-import Psyche from './compoenents/Psyche.js'
-import Home from './pages/Home.js'
-import Techs from './pages/Techs.js'
-import Contact from './pages/Contact.js'
+import Siderbar from "./compoenents/Siderbar.js";
+import Psyche from "./compoenents/Psyche.js";
+import Home from "./pages/Home.js";
+import Techs from "./pages/Techs.js";
+import Contact from "./pages/Contact.js";
 
-import './styles/App.css'
+import "./styles/App.css";
 
-function App () {
+function App() {
   return (
-    <div className='App'>
+    <div className="App">
       <Siderbar />
-      <Psyche />
+      {/* <Psyche /> */}
       <Home />
       <Techs />
 
       <Contact />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

@@ -1,21 +1,22 @@
+import React from "react";
+import Stars from "../compoenents/Stars";
 
-import React from 'react'
-import Stars from '../compoenents/Stars'
+import "../styles/techs.css";
 
-import '../styles/techs.css'
-
-function Techs () {
+function Techs() {
   return (
-
-    <div className='techs-container'>
+    <div className="techs-container">
       <Stars />
-      <div className='techs'>
-        <img src='./images/node.png' />
-        <img src='./images/react.png' />
-        <img src='./images/blue.png' />
+      <div className="frontend">
+        <img src="./images/react.png" />
+        <img src="./images/next3.png" />
+      </div>
+      <div className="backend">
+        <img src="./images/node2.png" />
+        <img src="./images/firebase.png" />
       </div>
     </div>
-  )
+  );
 }
 
-export default Techs
+export default Techs;

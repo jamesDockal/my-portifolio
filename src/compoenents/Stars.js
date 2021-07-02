@@ -1,12 +1,11 @@
+import React from "react";
+import Particles from "react-particles-js";
+import particlesStyles from "../styles/stars";
 
-import React from 'react'
-import Particles from 'react-particles-js'
-import particlesStyles from '../styles/stars'
-
-function Stars () {
+function Stars() {
   return (
-    <Particles params={particlesStyles} />
-  )
+    <Particles style={{ position: "absolute" }} params={particlesStyles} />
+  );
 }
 
-export default Stars
+export default Stars;

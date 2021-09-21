@@ -1,8 +1,8 @@
-import Siderbar from "./compoenents/Siderbar.js";
-import Psyche from "./compoenents/Psyche.js";
-import Home from "./pages/Home.js";
-import Techs from "./pages/Techs.js";
-import Contact from "./pages/Contact.js";
+import Siderbar from "./components/Siderbar";
+import Psyche from "./components/Psyche";
+import Home from "./pages/Home";
+import Techs from "./pages/Techs";
+import Contact from "./pages/Contact";
 
 import "./styles/App.css";
 

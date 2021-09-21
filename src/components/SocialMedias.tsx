@@ -3,7 +3,7 @@ import React from "react";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
 
-export default function SocialMedias({ color }) {
+export default function SocialMedias({ color }: any) {
   const mediaStyle = {
     color,
     fontSize: "4em",

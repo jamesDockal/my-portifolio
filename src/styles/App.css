@@ -3,7 +3,7 @@
   /* overflow-y: hidden; */
   background: linear-gradient(to bottom, #171f34, hsla(213, 77%, 14%, 1) 100%);
 
-  max-height: 250vh;
+  max-height: 280vh;
   overflow: hidden;
 }
 /*  */

@@ -1,5 +1,5 @@
 import React from "react";
-import Stars from "../compoenents/Stars";
+import Stars from "../components/Stars";
 
 import "../styles/techs.css";
 
@@ -14,6 +14,8 @@ function Techs() {
       <div className="backend">
         <img src="./images/node2.png" />
         <img src="./images/firebase.png" />
+        <img src="./images/sql.png" />
+        <img src="./images/mongo.png" />
       </div>
     </div>
   );

@@ -1,8 +1,8 @@
 .contact-container {
+  margin-top: 30vh;
   width: 100vw;
   height: 100vh;
 
-  background-color: gold;
   border-top-left-radius: 100vh; /* 100px of height + 10px of border */
   border-top-right-radius: 100vh; /* 100px of height + 10px of border */
   border-bottom: 0;

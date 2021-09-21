@@ -1,6 +1,7 @@
 import React, { useState } from "react";
+import Stars from "../components/Stars";
 
-import SocialMedias from "../compoenents/SocialMedias";
+import SocialMedias from "../components/SocialMedias";
 
 import EmailIcon from "@material-ui/icons/Email";
 import MailOutlineIcon from "@material-ui/icons/MailOutline";
@@ -30,6 +31,9 @@ function Contact() {
   //  5b06a7
   // ff4365
   return (
+    // <>
+    //   <Stars />
+
     <div className="contact-container">
       <div className="teste">
         <div className="contact-about">
@@ -61,6 +65,7 @@ function Contact() {
         </div>
       </div>
     </div>
+    // </>
   );
 }
 

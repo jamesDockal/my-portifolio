@@ -4,7 +4,10 @@ import particlesStyles from "../styles/stars";
 
 function Stars() {
   return (
-    <Particles style={{ position: "absolute" }} params={particlesStyles} />
+    <Particles
+      style={{ position: "absolute" }}
+      // params={particlesStyles}
+    />
   );
 }
 

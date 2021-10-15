@@ -4,6 +4,8 @@
   background: linear-gradient(to bottom, #171f34, hsla(213, 77%, 14%, 1) 100%);
 
   max-height: 280vh;
-  overflow: hidden;
+  overflow-y: hidden;
+  display: flex;
+  width: 400vw;
 }
 /*  */

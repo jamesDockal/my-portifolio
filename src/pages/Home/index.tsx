@@ -1,7 +1,7 @@
 import React from "react";
 
-import Stars from "../components/Stars";
-import "../styles/home.css";
+import Stars from "../../components/Stars/";
+import "./styles.css";
 
 function Home() {
   return (

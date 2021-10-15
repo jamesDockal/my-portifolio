@@ -1,12 +1,12 @@
 import React, { useState } from "react";
-import Stars from "../components/Stars";
+import Stars from "../../components/Stars";
 
-import SocialMedias from "../components/SocialMedias";
+import SocialMedias from "../../components/SocialMedias";
 
 import EmailIcon from "@material-ui/icons/Email";
 import MailOutlineIcon from "@material-ui/icons/MailOutline";
 
-import "../styles/contact.css";
+import "./styles.css";
 
 // 5B06A7
 

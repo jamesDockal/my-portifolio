@@ -1,4 +1,4 @@
-import Siderbar from "./components/Siderbar";
+import Siderbar from "./components/SIderbar";
 import Psyche from "./components/Psyche";
 import Home from "./pages/Home";
 import Techs from "./pages/Techs";

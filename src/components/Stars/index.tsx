@@ -1,6 +1,6 @@
 import React from "react";
 import Particles from "react-particles-js";
-import particlesStyles from "../styles/stars";
+// import particlesStyles from ".";
 
 function Stars() {
   return (

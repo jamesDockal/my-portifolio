@@ -4,8 +4,8 @@ import CodeIcon from "@material-ui/icons/Code";
 import MailOutlineIcon from "@material-ui/icons/MailOutline";
 import { Link } from "react-scroll";
 
-import "../styles/siderbar.css";
-import iconsStyles from "../styles/icons";
+import "./styles.css";
+import iconsStyles from "./icons";
 
 function Siderbar() {
   return (
